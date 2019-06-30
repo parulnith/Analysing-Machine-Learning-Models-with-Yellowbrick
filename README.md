@@ -2,7 +2,7 @@
 
 Visualization thus has a critical role to play throughout the analytical process and is a, frankly, a must-have for any effective analysis, for model selection, and for evaluation. This article aims to discuss a diagnostic platform called **Yellowbrick** that allows data scientists to visualize the entire model selection process to steer us towards better, more explainable models—and avoid pitfalls and traps along the way.
 
-![](http://cseweb.ucsd.edu/~arunkk/vision/SIGMODRecord15.pdf)
+![](https://cdn-images-1.medium.com/max/800/1*a9Po3znWlW2M_iFBKMB3EA.png)
 
 ## Yellowbrick
 [Yellowbrick](https://www.scikit-yb.org/en/latest/about.html) is an open source, Python project that extends the scikit-learn API with visual analysis and diagnostic tools. The Yellowbrick API also wraps matplotlib to create interactive data explorations.
@@ -20,15 +20,15 @@ Yellowbrick isn’t a replacement for other data visualization libraries but hel
 ## Installation
 Yellowbrick can either be installed through pip or through conda distribution. For detailed instructions, you may want to refer the [documentation](https://www.scikit-yb.org/en/latest/quickstart.html#installation).
 
-#via pip
+### via pip
 ```
 pip install yellowbrick
 ```
-#via conda
+### via conda
 ```
 conda install -c districtdatalabs yellowbrick
 ```
-##Usage
+## Usage
 The Yellowbrick API should appear easy if you are familiar with the scikit-learn interface.
 
 ![](https://cdn-images-1.medium.com/max/800/1*3zNcu8BnQDQ8KSTd8_6miw.png)
